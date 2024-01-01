@@ -7,7 +7,7 @@ function Stickers() {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -17,7 +17,7 @@ function Stickers() {
                 <p className="mt-1">$16.00</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -27,7 +27,7 @@ function Stickers() {
                 <p className="mt-1">$21.15</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -37,7 +37,7 @@ function Stickers() {
                 <p className="mt-1">$12.00</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -47,7 +47,7 @@ function Stickers() {
                 <p className="mt-1">$18.40</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -57,7 +57,7 @@ function Stickers() {
                 <p className="mt-1">$16.00</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -67,7 +67,7 @@ function Stickers() {
                 <p className="mt-1">$21.15</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
@@ -77,7 +77,7 @@ function Stickers() {
                 <p className="mt-1">$12.00</p>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg shadow-slate-400">
+            <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-4 shadow-slate-400">
               <Link href={"/product/wear-the-code"} className="block relative rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto h-[24vh] block" src="/sticker.png"/>
               </Link>
