@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { useRef } from 'react';
 
 const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal, saveCart }) => {
-    console.log(cart, addToCart, removeFromCart, clearCart, subTotal, saveCart);
+    // console.log(cart, addToCart, removeFromCart, clearCart, subTotal, saveCart);
     const toggleCart = () => {
         if (ref.current.classList.contains('translate-x-full')) {
             ref.current.classList.remove('translate-x-full');
