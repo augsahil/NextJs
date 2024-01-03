@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
-// import Company from "../public/assets/nav.png";
-import Image from "next/image";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Signup = () => {
   const [name, setName] = useState()
@@ -37,11 +37,34 @@ const Signup = () => {
     setName('')
     setEmail('')
     setPassword('')
+    toast.success('Your Account has been created!', {
+      position: "top-center",
+      autoClose: 1500,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
 
   };
 
   return (
     <div>
+      <ToastContainer
+            position="top-center"
+            autoClose={1500}
+            limit={5}
+            hideProgressBar
+            newestOnTop
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="colors"
+          />
       <div className="flex h-screen items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
           <div class="flex flex-col items-center justify-center px-6 py-8">
